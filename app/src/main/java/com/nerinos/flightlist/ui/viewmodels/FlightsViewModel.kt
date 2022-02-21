@@ -3,7 +3,7 @@ package com.nerinos.flightlist.ui.viewmodels
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.nerinos.flightlist.api.FlightsRepository
+import com.nerinos.flightlist.repository.FlightsRepository
 import com.nerinos.flightlist.entities.ChooseTypeEntity
 import com.nerinos.flightlist.entities.Flight
 import com.nerinos.flightlist.entities.FlightInfo

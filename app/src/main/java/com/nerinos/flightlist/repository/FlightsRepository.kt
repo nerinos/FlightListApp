@@ -1,5 +1,6 @@
-package com.nerinos.flightlist.api
+package com.nerinos.flightlist.repository
 
+import com.nerinos.flightlist.api.FlightsApi
 import com.nerinos.flightlist.entities.Flight
 import com.nerinos.flightlist.utils.Resource
 import javax.inject.Inject

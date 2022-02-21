@@ -1,7 +1,7 @@
 package com.nerinos.flightlist.di
 
 import com.nerinos.flightlist.api.FlightsApi
-import com.nerinos.flightlist.api.FlightsRepository
+import com.nerinos.flightlist.repository.FlightsRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
