@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Flight List</string>
+    <string name="starting_fragment_button">Navigate to flights list</string>
+    <string name="starting_fragment_name">Starting fragment</string>
+    <string name="flights_fragment_name">Flights</string>
+    <string name="flight_info_fragment_name">Flight info</string>
+    <string name="flight_type_dialog_choose_title">Выберите класс</string>
+    <string name="flight_type_dialog_choose_confirm">Применить</string>
+    <string name="connections_count_zero">Без пересадок</string>
+    <string name="connections_count">Количество пересадок: %d</string>
+    <string name="flight_type_business">Бизнес-класс</string>
+    <string name="flight_type_economy">Эконом-класс</string>
+    <string name="flight_cost_from_template">от %d %s</string>
+    <string name="flight_cost_template">%d %s</string>
+    <string name="unknown_destination">Неизвестное направление</string>
+    <string name="from_to_template">%s - %s</string>
+</resources>

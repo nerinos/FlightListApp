@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startingFragment">
+
+    <fragment
+        android:id="@+id/startingFragment"
+        android:name="com.nerinos.flightlist.ui.fragments.StartingFragment"
+        android:label="@string/starting_fragment_name"
+        tools:layout="@layout/starting_fragment">
+        <action
+            android:id="@+id/action_startingFragment_to_flightsFragment"
+            app:destination="@id/flightsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flightsFragment"
+        android:name="com.nerinos.flightlist.ui.fragments.FlightsFragment"
+        android:label="@string/flights_fragment_name"
+        tools:layout="@layout/flights_fragment">
+        <action
+            android:id="@+id/action_flightsFragment_to_flightInfoFragment"
+            app:destination="@id/flightInfoFragment" />
+        <action
+            android:id="@+id/action_flightsFragment_to_typeDialog"
+            app:destination="@id/typeDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flightInfoFragment"
+        android:name="com.nerinos.flightlist.ui.fragments.FlightInfoFragment"
+        android:label="@string/flight_info_fragment_name"
+        tools:layout="@layout/flight_info_fragment">
+        <argument
+            android:name="flightInfo"
+            app:argType="com.nerinos.flightlist.entities.FlightInfo" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/typeDialog"
+        android:name="com.nerinos.flightlist.ui.dialogs.FlightTypeDialog"
+        android:label="Type Dialog">
+        <argument
+            android:name="typeEntities"
+            app:argType="com.nerinos.flightlist.entities.ChooseTypeEntity[]" />
+    </dialog>
+
+</navigation>
