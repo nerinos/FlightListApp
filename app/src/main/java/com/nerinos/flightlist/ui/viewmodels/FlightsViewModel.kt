@@ -3,14 +3,14 @@ package com.nerinos.flightlist.ui.viewmodels
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.snplc.other.SingleLiveEvent
-import com.example.snplc.other.toImmutable
 import com.nerinos.flightlist.api.FlightsRepository
 import com.nerinos.flightlist.entities.ChooseTypeEntity
 import com.nerinos.flightlist.entities.Flight
 import com.nerinos.flightlist.entities.FlightInfo
 import com.nerinos.flightlist.entities.FlightTypeEntity
 import com.nerinos.flightlist.utils.Resource
+import com.nerinos.flightlist.utils.SingleLiveEvent
+import com.nerinos.flightlist.utils.toImmutable
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.example.snplc.other
+package com.nerinos.flightlist.utils
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData

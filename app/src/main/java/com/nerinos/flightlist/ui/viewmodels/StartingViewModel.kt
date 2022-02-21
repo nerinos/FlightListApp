@@ -1,8 +1,8 @@
 package com.nerinos.flightlist.ui.viewmodels
 
 import androidx.lifecycle.ViewModel
-import com.example.snplc.other.SingleLiveEvent
-import com.example.snplc.other.toImmutable
+import com.nerinos.flightlist.utils.SingleLiveEvent
+import com.nerinos.flightlist.utils.toImmutable
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
